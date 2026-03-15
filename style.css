@@ -7,3 +7,13 @@ html, body{
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
