@@ -20,3 +20,15 @@
 // h1.innerHTML = "Hello From Roman ";
 // document.body.appendChild(h1);
 
+// Ye Reactjs ki help se banaya 
+var h1 = React.createElement('h1', null , "hello From React ");
+
+// 1st way to write --> 
+
+// var root = document.querySelector('#root')
+// var container = ReactDOM.createRoot(root)
+// container.render(h1);
+
+// 2nd way to write -->
+
+var root = ReactDOM.createRoot(document.querySelector('#root')).render(h1);
