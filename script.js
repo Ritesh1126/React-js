@@ -22,7 +22,9 @@
 
 // Ye Reactjs ki help se banaya 
 var h1 = React.createElement('h1', null , "hello From React ");
+var h2 = React.createElement('h2', null , "hello From Roman ");
 
+var div = React.createElement('div' , null, h1 , h2)
 // 1st way to write --> 
 
 // var root = document.querySelector('#root')
@@ -31,4 +33,4 @@ var h1 = React.createElement('h1', null , "hello From React ");
 
 // 2nd way to write -->
 
-var root = ReactDOM.createRoot(document.querySelector('#root')).render(h1);
+var root = ReactDOM.createRoot(document.querySelector('#root')).render(div);
