@@ -21,7 +21,7 @@
 // document.body.appendChild(h1);
 
 // Ye Reactjs ki help se banaya 
-var h1 = React.createElement('h1', null , "hello From React ");
+var h1 = React.createElement('h1', null , "hello From React "); // null property is attribute
 var h2 = React.createElement('h2', null , "hello From Roman ");
 
 var div = React.createElement('div' , null, h1 , h2)
