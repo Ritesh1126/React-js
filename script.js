@@ -35,8 +35,8 @@
 
 // var root = ReactDOM.createRoot(document.querySelector('#root')).render(div);
 
-import box from "./app.js"
-import circle from "./text.js"
-const root = ReactDOM.createRoot(document.querySelector('#root')).render(box());
+// import box from "./app.js"
+// import circle from "./text.js"
+// const root = ReactDOM.createRoot(document.querySelector('#root')).render(box());
 
-const root2 = ReactDOM.createRoot(document.querySelector('#root2')).render(circle());
+// const root2 = ReactDOM.createRoot(document.querySelector('#root2')).render(circle());
